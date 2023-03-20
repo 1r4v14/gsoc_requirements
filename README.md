@@ -14,11 +14,11 @@ Check the file information with
 
 `file hello.bin`it should say
 
-`hello.bin: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=a51c4a0f9a87096aa7446662de3853635a39ce67, for GNU/Linux 3.2.0, not stripped`
+`helloworld.bin: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, BuildID[sha1]=a51c4a0f9a87096aa7446662de3853635a39ce67, for GNU/Linux 3.2.0, not stripped`
 
 next to run the program I ran
 
-`qemu-arm-static -L /usr/arm-linux-gnueabi ./hello.bin`
+`qemu-arm-static -L /usr/arm-linux-gnueabi ./helloworld.bin`
 
 The output will be the name followed by the date
 
